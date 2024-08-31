@@ -1,26 +1,9 @@
-# Receitas na pratica #
 # Receitas na prática #
-## Comidas do dia a dia ##
-Primeiro repositório do GitHub
-<<<<<<< HEAD
-# Receitas: #
-## Receitas Italianas ##
-## Receitas Nordestinas ##
-## Receitas Sulistas ##
-## Receitas Práticas ##
-## Receitas Veganas ##
-
-# (O Primeiro avião criado) #
+## Primeiras Pais a desenvolver receitas culinarias ##
+De acordo com alguns historiadores, foi no reinado de Luís XIV que a gastronomia teve a sua origem, quando, de fato, os nobres da França passaram a elaborar e definir regras e normas sobre o que realmente seria comer bem ou comer mal.
 ## Tópicos ##
-vamos fazer uma lista de comida
-=======
-
-Listagem:
->>>>>>> c4efbbb00a7364c2566a0ff0151ffbc566de7348
 
 *Comida nordestina
 *Comida Italiana
 *Comida Japonesa
-*Comida africana
-
-
+*comida brasileira
