@@ -1,9 +1,8 @@
 # Receitas na prática #
-## A história do primeiro avião ##
+## Comidas do dia a dia ##
 Primeiro repositório do GitHub
-# (O Primeiro avião criado) #
-## Tópicos ##
-vamos fazer uma lista de comida
+
+Listagem:
 
 *Comida nordestina
 *Comida Italiana
