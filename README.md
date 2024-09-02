@@ -1,9 +1,12 @@
 # Receitas na prática #
-## Primeiras Pais a desenvolver receitas culinarias ##
-De acordo com alguns historiadores, foi no reinado de Luís XIV que a gastronomia teve a sua origem, quando, de fato, os nobres da França passaram a elaborar e definir regras e normas sobre o que realmente seria comer bem ou comer mal.
+## A história da culunária brasileira ##
+
+Objetivo: Criar uma página dedicada a receitas culunárias
+
+A história da culinária brasileira é uma jornada fascinante que reflete a diversidade cultural e geográfica do país. Desde as suas raízes indígenas até as influências trazidas pelos colonizadores europeus, africanos escravizados e imigrantes asiáticos, a cozinha brasileira é, portanto, uma fusão rica de tradições culinárias que continua a evoluir.
+
 ## Tópicos ##
 
-*Comida nordestina
+*Comida Brasileira
 *Comida Italiana
-*Comida Japonesa
-*comida brasileira
+*Comida Japones
