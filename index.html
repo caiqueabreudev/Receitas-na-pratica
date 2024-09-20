@@ -12,6 +12,20 @@
 
 <body>
     <form action="https://webhook.site/54ad338f-0644-4516-a354-298efb737d06" method="POST">
+                <label for="nome">Nome da Receita:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="ingredientes">Ingredientes:</label>
+        <textarea id="ingredientes" name="ingredientes" rows="5" required></textarea>
+
+        <label for="modo-preparo">Modo de Preparo:</label>
+        <textarea id="modo-preparo" name="modo-preparo" rows="5" required></textarea>
+
+        <label for="imagem">Imagem da Receita:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+        <button type="submit">Adicionar Receita</button>
+
         <label for="username" >Usuário:</label>
         <input type="text" id="username" placeholder="Digite seu usuário..." required>
         <br>
