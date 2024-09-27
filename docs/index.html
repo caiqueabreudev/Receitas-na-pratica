@@ -1,17 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <title>Receitas na prática</title>
-    <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
+<style> 
+body {
+    background-color: #FFF4E0; /* Fundo amarelo escuro */
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-<body style="background-color:powderblue;">
+h1 {
+    color: #FF4500; /* Vermelho alaranjado */
+    text-align: center;
+    padding: 20px;
+    background-color: #FF6347; /* Laranja avermelhado */
+    color: #FFF;
+}
+
+h2 {
+    color: #FF4500; /* Vermelho alaranjado */
+    border-bottom: 2px solid #FF6347; /* Laranja avermelhado */
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #FFD700; /* Amarelo dourado */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+label {
+    color: #D2691E; /* Marrom alaranjado */
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #FF6347; /* Laranja avermelhado */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #FF4500; /* Vermelho alaranjado */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #D2691E; /* Marrom alaranjado */
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    color: #FF6347; /* Laranja avermelhado */
+}
+
+/* Estilização de imagens */
+img {
+    margin: 10px;
+    border: 4px solid #FFD700; /* Borda amarela dourada */
+    border-radius: 8px;
+}
+
+/* Estilização de parágrafos */
+p {
+    line-height: 1.6;
+    margin: 20px;
+    color: #B22222; /* Vermelho fogo */
+}
+
+strong {
+    color: #FF4500; /* Vermelho alaranjado */
+    </style>
+}
+
+
+<body>
     <form action="https://webhook.site/54ad338f-0644-4516-a354-298efb737d06" method="POST">
         <label for="nome">Nome da Receita:</label>
         <input type="text" id="nome" name="nome" required>
@@ -35,15 +122,14 @@
         <input type="password" id="password" required name="password">
         <br>
         <label for="genero">Gênero:</label>
-            <select id="genero" name="genero" required>
-                <option value="" disabled selected>Selecione seu gênero</option>
-                <option value="masculino">Masculino</option>
-                <option value="feminino">Feminino</option>
-                <option value="outro">Outro</option>
-            </select>
+        <select id="genero" name="genero" required>
+            <option value="" disabled selected>Selecione seu gênero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
         <input type="submit" value="Enviar" >
     </form>
-
 
     <img src="./assets/image-1.png" style="width: 200px;">
     <img src="https://media.istockphoto.com/id/1313384844/pt/foto/feijoada-a-typical-brazilian-food.jpg?s=612x612&w=0&k=20&c=zAzM-vuT1-E6asIEjZ2Tynj_IAHiKfQPb2gb9pffDZU=" style="width: 200px;">
@@ -53,53 +139,25 @@
     <img src="https://www.estadao.com.br/resizer/v2/L3LYN5Y4MRG6BB47MNHEEXDRGA.jpeg?quality=80&auth=c4f56563b2c83e506971bce35dbc505a5ecdf7d89a70d2f2c5fbb8b0c7071e5f&width=720&height=503&smart=true" style="width: 200px;">
     <img src="https://static.itdg.com.br/images/auto-auto/a0f2409ce0cc0e36b2968fc45ea5400e/comida-japonesa-1.jpg" style="width: 200px;">
 
-
     <h1>Culinária Brasileira</h1>
 
-    <h2 style="color:green">História:</h2>
+    <h2>História:</h2>
 
     <p>A história da culinária brasileira é uma jornada fascinante que reflete a diversidade cultural e geográfica do
     país.
     Desde as suas raízes indígenas até as influências trazidas pelos colonizadores europeus, africanos escravizados
-    e
-    imigrantes asiáticos, a cozinha brasileira é, portanto, uma fusão rica de tradições culinárias que continua a
-    evoluir.
-    </p>
+    e imigrantes asiáticos, a cozinha brasileira é, portanto, uma fusão rica de tradições culinárias que continua a
+    evoluir.</p>
 
     <p><strong>INFLUÊNCIA INDÍGENA E INGREDIENTES NATIVOS</strong><br>
     Os povos indígenas que habitavam o território brasileiro antes da chegada dos colonizadores europeus já tinham uma
-    rica tradição culinária. Ademais, eles baseavam sua alimentação em ingredientes como mandioca, milho, peixes, frutas
-    e raízes. A mandioca, em particular, desempenhou um papel fundamental na alimentação indígena, sendo usada para
-    fazer a farinha de mandioca, que é um ingrediente essencial em muitos pratos brasileiros.</p>
+    rica tradição culinária...</p>
 
-    <p><strong>COLONIZAÇÃO PORTUGUESA E A MISTURA DE SABORES<br></strong>
-
-    Com a chegada dos portugueses em 1500, a história da culinária brasileira começou a tomar forma. Os colonizadores
-    trouxeram consigo ingredientes europeus como trigo, açúcar e azeite de oliva, que foram incorporados à dieta local.
-    A mistura de ingredientes indígenas e europeus deu origem a pratos como a feijoada, uma combinação de feijão preto e
-    carne de porco, e a moqueca, um prato de peixe cozido em um molho de azeite de dendê.</p>
-
-    <p><strong>INFLUÊNCIA AFRICANA E A DIVERSIDADE DE TEMPEROS</strong><br>
-    A chegada dos africanos escravizados também teve um impacto significativo na culinária brasileira. Além disso, os
-    africanos trouxeram consigo técnicas de preparação, como o uso de temperos e o cozimento lento, que enriqueceram a
-    comida brasileira. Pratos como o acarajé, feito de massa de feijão-fradinho frita em azeite de dendê, e o vatapá, um
-    ensopado de camarão e pão, são exemplos de influências africanas na culinária brasileira.</p>
-
-    <p><strong>IMIGRAÇÃO E DIVERSIFICAÇÃO DE SABORES</strong><br>
-    A história da culinária brasileira também foi moldada pela imigração de diferentes grupos étnicos. Por exemplo, os
-    italianos trouxeram a pizza e a massa, os japoneses introduziram o sushi e o sashimi, e os árabes contribuíram com
-    pratos como o quibe e a esfirra. Essas influências estrangeiras se misturaram com os sabores locais, criando uma
-    culinária brasileira verdadeiramente diversificada.</p>
-
-    <p><strong>A CULINÁRIA BRASILEIRA MODERNA E TENDÊNCIAS<br></strong>
-    Hoje, a culinária brasileira continua a evoluir e se reinventar. Chefs talentosos de todo o país, por exemplo, estão
-    explorando ingredientes regionais e técnicas modernas para criar pratos que combinam tradição e inovação. Além
-    disso, o movimento pela comida orgânica e sustentável está ganhando força, promovendo uma conexão mais profunda
-    entre a comida e a terra.</p>
-
-    <ul>Tópicos a serem usados:
+    <ul>
         <li>Comida Brasileira</li>
         <li>Comida Italiana</li>
         <li>Comida Japonesa</li>
     </ul>
 </body>
+</html>
+
