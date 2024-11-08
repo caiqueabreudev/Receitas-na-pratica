@@ -1,145 +1,139 @@
-/* Reset e estilos gerais */
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #FAF4E4;
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF4E0;
     color: #333;
+    font-size: 16px; 
 }
 
-/* Cabeçalho */
-#header {
-    background-color: #F4A261;
-    padding: 10px 20px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-}
-
-.navbar li {
-    margin-right: 20px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-}
-
-.navbar a img {
-    margin-right: 8px;
-}
-
-/* Campo de busca */
-.search-bar {
-    display: flex;
-    align-items: center;
-}
-
-.search-bar input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-}
-
-.search-bar button {
-    padding: 5px 10px;
-    background-color: #E76F51;
-    border: none;
-    color: #FFF;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-}
-
-/* Ícone de usuário */
-.user-icon img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Seção do logo */
-.logo-section {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.logo {
-    width: 80px;
-    border-radius: 50%;
-}
-
-/* Cards de categorias */
-.categories {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.card {
-    position: relative;
-    width: 250px;
-    height: 350px;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s;
-}
-
-.card:hover img {
-    transform: scale(1.1);
-}
-
-.card-overlay {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* Título e subtítulos */
+h1, h2 {
+    color: #FF4500;
+    font-family: inherit; /* Mesma fonte */
+    font-size: 24px; /* Tamanho de fonte padronizado */
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    color: #FFF;
+}
+
+#header{
+    width: 100%;
+    padding: 20px 3%;
+    background-color: #FF6347; 
+    box-shadow: 0px 3px 10px;
+}
+
+#header ul{
+    list-style-type: none;
+}
+
+#header ul li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+#header ul li a{
+color: #FFF4E0;
+font-family: inherit;
+}
+
+.containerindex {
+max-width: 1280px;
+margin: auto;
+}
+
+h1 {
     text-align: center;
+    color: #b63f3f;
 }
 
-.card-overlay h2 {
-    font-size: 1.2em;
+h2 {
+    text-align: center;
+    border-bottom: 2px solid #FF6347;
+    padding-bottom: 5px;
+    margin-top: 20px;
 }
 
-/* Botão de configurações */
-.settings-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #E76F51;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Links */
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: inherit; /* Mesma fonte e tamanho */
 }
 
-.settings-button img {
-    width: 25px;
-    height: 25px;
+/* Imagens */
+img {
+    margin: 10px;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #FFF4E0; /* Mesma cor de fundo */
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    margin: 20px;
+    color:#B22222;
+    font-size: inherit;
+
+}
+
+/* Destaque em negrito */
+strong {
+    color: #FF4500;
+    font-size: inherit; /* Mesma fonte e tamanho */
+    background-color: #FFF4E0;
+}
+
+/* Container e títulos de seção */
+.container {
+    background-color: #FFF4E0; /* Mesma cor de fundo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #FF6347;
+    padding-bottom: 5px;
+    font-size: inherit; /* Mesma fonte e tamanho */
+    background-color: #FFF4E0; /* Mesma cor de fundo */
+}
+
+.container ol {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.container ul {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+    display: block;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.container ul li {
+    margin: 10px 10px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.cont{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+    line-height: 1.6;
 }
