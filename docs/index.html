@@ -1,92 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
     <title>Receitas na Prática</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header id="header"> 
-        <div class="container">
-            <div class="navbar">
-                <!-- Menu de navegação -->
+        <div class="containerindex">
+
+            <div class="flex">
+            
                 <nav>
                     <ul>
                         <li><a href="formulario.html">Criar nova receita</a></li>
                         <li><a href="comidabr.html">Comida Brasileira</a></li>
-                        <li><a href="culinariajaponesa.html">Culinária Japonesa</a></li>
+                        <li><a href="culinariajaponesa.html">Culinaria Japonesa</a></li>
                         <li><a href="culinariaitaliana.html">Comida Italiana</a></li>
-                        <li><a href="login.html">Login</a></li>
+                       <li><a href="login.html">Login</a></li>
                     </ul>
-                </nav>
+                 </nav>
 
-                <!-- Campo de busca -->
-                <div class="search-bar">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">🔍</button>
-                </div>
+            </div> <!--FLex-->
 
-                <!-- Ícone de usuário -->
-                <div class="user-icon">
-                    <img src="icons/user.svg" alt="Usuário">
-                </div>
-            </div>
-        </div>
+        </div> <!--container-->
     </header>
 
-    <!-- Conteúdo principal -->
-    <main>
-        <div class="logo-section">
-            <img src="logo.png" alt="Logo Receitas na Prática" class="logo">
-            <h1>Receitas na Prática</h1>
-        </div>
+    <div class="cont">
+        <h1>Culinária Brasileira</h1>
 
-        <!-- Cards de categorias -->
-        <div class="categories">
-            <div class="card">
-                <img src="images/pratos-salgados.jpg" alt="Pratos Salgados">
-                <div class="card-overlay">
-                    <h2>Pratos Salgados</h2>
-                </div>
-            </div>
+        <h2>História:</h2>
 
-            <div class="card">
-                <img src="images/bebidas.jpg" alt="Bebidas">
-                <div class="card-overlay">
-                    <h2>Bebidas</h2>
-                </div>
-            </div>
+        <p>A culinária do Brasil é fruto de uma mistura de ingredientes europeus, indígenas e africanos.<br>
+            Muitos dos componentes das receitas e técnicas de preparo são de origem indígena, tendo sofrido modificações por parte dos portugueses e dos escravos oriundos da África. <br> 
+            Esses faziam adaptações dos seus pratos típicos substituindo os ingredientes que faltassem por correspondentes locais. <br> 
+            A feijoada à brasileira, o feijão tropeiro e a moqueca são exemplos disso. Os escravos trazidos ao Brasil desde meados do século XVI somaram à culinária nacional elementos como o azeite de dendê e o cuscuz. <br> 
+            E as levas de imigrantes recebidas pelo país entre os séculos XIX e XX, vindos em grande número da Europa, trouxeram algumas novidades ao cardápio nacional e concomitantemente fortaleceram o consumo de diversos ingredientes <br> 
+            A alimentação diária, feita em três refeições, envolve o consumo de café com leite, pão, frutas, bolos e doces no café da manhã, arroz e feijão no almoço — refeição básica do brasileiro, aos quais são somados, por vezes, o macarrão, a carne, a salada e a batata — e, no jantar, sopas e também as várias comidas regionais. <br> 
+            As bebidas destiladas foram trazidas pelos portugueses ou, como a cachaça, fabricadas na terra. O vinho é também muito consumido, por vezes somado à água e açúcar. A cerveja por sua vez começou a ser consumida em fins do século XVIII e é hoje uma das bebidas alcoólicas mais comuns. <br> 
+            As culinárias regionais mais visíveis pertencem aos estados de Minas Gerais e Bahia, sendo a culinária mineira marcada pela influência europeia em iguarias e laticínios como o feijão tropeiro (também um prato da cozinha paulista), o pão de queijo e o queijo de minas frescal, e a culinária baiana pela presença de quitutes africanos como o acarajé, o abará e o vatapá. Já a culinária de Pernambuco destaca-se pela chamada "doçaria pernambucana", ou seja, os doces desenvolvidos durante os períodos colonial e imperial nos seus engenhos de açúcar como o bolo de rolo, o bolo Souza Leão e a cartola, e também pelas bebidas e iguarias salgadas descobertas ou provavelmente originadas no estado a exemplo da cachaça, do beiju e da feijoada à brasileira.</p>
+    </div> <!--div historia-->
 
-            <div class="card">
-                <img src="images/sobremesas.jpg" alt="Sobremesas">
-                <div class="card-overlay">
-                    <h2>Sobremesas</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Conteúdo da Culinária Brasileira -->
-        <div class="cont">
-            <h1>Culinária Brasileira</h1>
-
-            <h2>História:</h2>
-
-            <p>A culinária do Brasil é fruto de uma mistura de ingredientes europeus, indígenas e africanos.<br>
-                Muitos dos componentes das receitas e técnicas de preparo são de origem indígena, tendo sofrido modificações por parte dos portugueses e dos escravos oriundos da África. <br> 
-                Esses faziam adaptações dos seus pratos típicos substituindo os ingredientes que faltassem por correspondentes locais. <br> 
-                A feijoada à brasileira, o feijão tropeiro e a moqueca são exemplos disso. Os escravos trazidos ao Brasil desde meados do século XVI somaram à culinária nacional elementos como o azeite de dendê e o cuscuz. <br> 
-                E as levas de imigrantes recebidas pelo país entre os séculos XIX e XX, vindos em grande número da Europa, trouxeram algumas novidades ao cardápio nacional e concomitantemente fortaleceram o consumo de diversos ingredientes <br> 
-                A alimentação diária, feita em três refeições, envolve o consumo de café com leite, pão, frutas, bolos e doces no café da manhã, arroz e feijão no almoço — refeição básica do brasileiro, aos quais são somados, por vezes, o macarrão, a carne, a salada e a batata — e, no jantar, sopas e também as várias comidas regionais. <br> 
-                As bebidas destiladas foram trazidas pelos portugueses ou, como a cachaça, fabricadas na terra. O vinho é também muito consumido, por vezes somado à água e açúcar. A cerveja por sua vez começou a ser consumida em fins do século XVIII e é hoje uma das bebidas alcoólicas mais comuns. <br> 
-                As culinárias regionais mais visíveis pertencem aos estados de Minas Gerais e Bahia, sendo a culinária mineira marcada pela influência europeia em iguarias e laticínios como o feijão tropeiro (também um prato da cozinha paulista), o pão de queijo e o queijo de minas frescal, e a culinária baiana pela presença de quitutes africanos como o acarajé, o abará e o vatapá. Já a culinária de Pernambuco destaca-se pela chamada "doçaria pernambucana", ou seja, os doces desenvolvidos durante os períodos colonial e imperial nos seus engenhos de açúcar como o bolo de rolo, o bolo Souza Leão e a cartola, e também pelas bebidas e iguarias salgadas descobertas ou provavelmente originadas no estado a exemplo da cachaça, do beiju e da feijoada à brasileira.</p>
-        </div> <!--div história-->
-    </main>
-
-    <!-- Botão de configurações -->
-    <button class="settings-button">
-        <img src="icons/settings.svg" alt="Configurações">
-    </button>
 </body>
 </html>
