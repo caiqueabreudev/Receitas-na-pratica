@@ -1,79 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Formulário de Receitas</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
-        body {
-            background-color: #FFF4E0;
-            color: #333;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #FF4500;
-            text-align: center;
-            padding: 20px;
-            background-color: #FF6347;
-            color: #FFF;
-        }
-        form {
-            background-color: #FFD700;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 50%;
-        }
-        label {
-            color: #D2691E;
-            font-weight: bold;
-            display: block;
-            margin-top: 10px;
-        }
-        input[type="text"], input[type="email"], input[type="password"], textarea, select {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-            border: 2px solid #FF6347;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            background-color: #FF4500;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        input[type="submit"]:hover {
-            background-color: #D2691E;
-        }
+ body {
+    background-color: #FAF0E6; /* Bege claro */
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FAF0E6; /* Bege claro para o texto */
+    text-align: center;
+    padding: 20px;
+    background-color: #c87516; /* Laranja pastel */
+}
+
+form {
+    background-color: #FAF0E6; /* Bege claro */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+label {
+    color: #8C5A25; /* Laranja escuro pastel */
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #c87516; /* Laranja pastel */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #c87516; /* Laranja pastel */
+    color: #FAF0E6; /* Bege claro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #8C5A25; /* Laranja escuro pastel */
+}
+
     </style>
 </head>
 <body>
     <p>
         <a href="index.html">Página Inicial</a>  
     </p>
-    <h1>Formulário de Receitas</h1>
+    <h1>Login</h1>
     <form action="https://webhook.site/54ad338f-0644-4516-a354-298efb737d06" method="POST">
-        <label for="nome">Nome da Receita:</label>
-        <input type="text" id="nome" name="nome" required>
-        <br>
-        <label for="ingredientes">Ingredientes:</label>
-        <textarea id="ingredientes" name="ingredientes" rows="5" required></textarea>
-        <br>
-        <label for="modo-preparo">Modo de Preparo:</label>
-        <textarea id="modo-preparo" name="modo-preparo" rows="5" required></textarea>
-        <br>
-        <label for="imagem">Imagem da Receita:</label>
-        <input type="file" id="imagem" name="imagem" accept="image/*" required>
         <br>
         <label for="username">Usuário:</label>
         <input type="text" id="username" placeholder="Digite seu usuário..." name="username" required>
