@@ -1,24 +1,24 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FAF0E6; /* Bege claro */
+    background-color: #FAF0E6; 
     color: #333;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 #header {
     width: 100%;
     padding: 20px 3%;
-    background-color: #c87516; /* Laranja pastel */
+    background-color: #c87516; 
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -33,17 +33,17 @@ body {
 }
 
 #header ul li a {
-    color: #FAF0E6; /* Bege claro */
+    color: #FAF0E6; 
     font-size: 18px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 #header ul li a:hover {
-    color: #FFDAB9; /* Bege pastel claro */
+    color: #FFDAB9; 
 }
 
-/* Conteúdo principal */
+
 .containerindex {
     max-width: 1280px;
     margin: auto;
@@ -52,39 +52,40 @@ body {
 }
 
 .containerindex h1 {
-    color: #c87516; /* Laranja pastel */
+    color: #c87516; 
     font-size: 32px;
     margin-bottom: 20px;
 }
 
 .containerindex p {
-    color: #8C5A25; /* Laranja escuro pastel */
+    color: #8C5A25; 
     font-size: 18px;
     max-width: 800px;
     margin: auto;
 }
 
-/* Seções de conteúdo */
+
 .container {
     max-width: 960px;
     margin: 40px auto;
-    background-color: #FAF0E6; /* Bege claro */
+    background-color: #FAF0E6; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .section-title {
-    color: #c87516; /* Laranja pastel */
+    color: #c87516; 
     font-size: 28px;
     text-align: center;
-    border-bottom: 2px solid #c87516; /* Laranja pastel */
+    border-bottom: 2px solid #c87516; 
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 .container p {
-    color: #8C5A25; /* Laranja escuro pastel */
+    color: #8C5A25; 
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 20px;
@@ -101,20 +102,20 @@ body {
     font-size: 18px;
 }
 
-/* Links */
+
 a {
-    color: #c87516; /* Laranja pastel */
+    color: #c87516; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #8C5A25; /* Laranja escuro pastel */
+    color: #8C5A25; 
 }
 
-/* Formulário de contato */
+
 form {
-    background-color: #FFD700; /* Amarelo */
+    background-color: #FFD700; 
     padding: 20px;
     margin: 20px auto;
     border-radius: 8px;
@@ -124,7 +125,7 @@ form {
 }
 
 form label {
-    color: #D2691E; /* Laranja escuro */
+    color: #D2691E; 
     font-weight: bold;
     display: block;
     margin-top: 10px;
@@ -137,13 +138,13 @@ form textarea {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: 2px solid #FF6347; /* Vermelho suave */
+    border: 2px solid #FF6347; 
     border-radius: 4px;
     font-size: 16px;
 }
 
 form input[type="submit"] {
-    background-color: #FF4500; /* Vermelho alaranjado */
+    background-color: #FF4500; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -154,19 +155,19 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #D2691E; /* Laranja escuro */
+    background-color: #D2691E; 
 }
 
-/* Rodapé */
+
 footer {
-    background-color: #c87516; /* Laranja pastel */
-    color: #FAF0E6; /* Bege claro */
+    background-color: #c87516; 
+    color: #FAF0E6; 
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     #header ul li {
         display: block;
@@ -186,3 +187,12 @@ footer {
         width: 90%;
     }
 }
+
+.container img {
+    width: 500px;
+    height: 300px; 
+    
+  }
+
+
+  
