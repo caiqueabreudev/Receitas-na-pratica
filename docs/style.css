@@ -167,32 +167,19 @@ footer {
     margin-top: 20px;
 }
 
-
-@media (max-width: 768px) {
-    #header ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .containerindex h1 {
-        font-size: 24px;
-    }
-
-    .containerindex p,
-    .container p {
-        font-size: 16px;
-    }
-
-    form {
-        width: 90%;
-    }
+.container img {
+    max-width: 500px; /* Tamanho máximo em telas grandes */
+    max-height: 300px; /* Altura máxima */
+    width: 100%; /* Ajusta para o contêiner */
+    object-fit: cover; /* Garante boa proporção visual */
 }
 
-.container img {
-    width: 500px;
-    height: 300px; 
-    
-  }
+  @media (max-width: 768px) {
+    .container img {
+        max-width: 300px; /* Ajusta para telas menores */
+        max-height: 200px;
+    }
+}
 
 
   
