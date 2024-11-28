@@ -96,6 +96,11 @@ body {
     padding: 0;
 }
 
+.container ol {
+    list-style-type: none;
+    padding: 0;
+}
+
 .container ul li {
     margin: 10px 0;
     color: #333;
